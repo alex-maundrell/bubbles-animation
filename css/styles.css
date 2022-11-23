@@ -44,4 +44,49 @@ button {
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+    /* z-index: 2; */
+}
+
+.page-content h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin: 10px 0 30px;
+}
+
+.side-bar {
+    width: 60px;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-icon {
+    display: block;
+    width: 30px;
+    margin: 58px auto 0;
+    cursor: pointer;
+}
+
+.social-links img,
+.useful-links img {
+    width: 30px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.social-links {
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.useful-links {
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    bottom: 55px;
 }
